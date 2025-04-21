@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
@@ -6,7 +7,7 @@ const HeroBanner = () => {
     <div className="relative bg-renovation-navy overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-30"
-        style={{ backgroundImage: "url('/placeholder.svg')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1618219944342-824e40a13285?q=80&w=1470&auto=format&fit=crop')" }}
       ></div>
       
       <div className="container-custom relative z-10 flex flex-col items-start justify-center min-h-[600px] py-20">
@@ -17,7 +18,7 @@ const HeroBanner = () => {
           
           <p className="text-lg md:text-xl text-white/90 mb-8">
             Профессиональный ремонт квартир, домов и коммерческих помещений любой сложности. 
-            Выполним ваш проект качественно и в срок.
+            Выполним ваш проект качественно и в срок с гарантией до 5 лет.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

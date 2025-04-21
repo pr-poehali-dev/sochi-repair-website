@@ -1,48 +1,49 @@
+
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
 const projects = [
   {
     id: 1,
-    title: 'Квартира в жилом комплексе «Морской»',
+    title: 'Квартира в ЖК «Морской»',
     category: 'Квартиры',
-    image: '/placeholder.svg',
-    description: 'Капитальный ремонт трехкомнатной квартиры в современном стиле.'
+    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?q=80&w=1374&auto=format&fit=crop',
+    description: 'Капитальный ремонт трехкомнатной квартиры в современном стиле. Площадь 85 м².'
   },
   {
     id: 2,
-    title: 'Коттедж в поселке «Сосновый бор»',
+    title: 'Коттедж в «Сосновом бору»',
     category: 'Дома',
-    image: '/placeholder.svg',
-    description: 'Полный ремонт под ключ двухэтажного коттеджа с отделкой фасада.'
+    image: 'https://images.unsplash.com/photo-1600607687644-c7e43560156c?q=80&w=1470&auto=format&fit=crop',
+    description: 'Полный ремонт под ключ двухэтажного коттеджа с отделкой фасада. Площадь 230 м².'
   },
   {
     id: 3,
     title: 'Ресторан «Морская волна»',
     category: 'Коммерческие',
-    image: '/placeholder.svg',
-    description: 'Ремонт и отделка помещения ресторана площадью 250 кв.м.'
+    image: 'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=1374&auto=format&fit=crop',
+    description: 'Ремонт и отделка помещения ресторана в морском стиле. Площадь 250 м².'
   },
   {
     id: 4,
-    title: 'Апартаменты с видом на море',
+    title: 'Апартаменты в ЖК «Фрегат»',
     category: 'Квартиры',
-    image: '/placeholder.svg',
-    description: 'Ремонт апартаментов премиум-класса в стиле минимализм.'
+    image: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1370&auto=format&fit=crop',
+    description: 'Ремонт апартаментов премиум-класса в стиле минимализм с панорамными окнами. Площадь 120 м².'
   },
   {
     id: 5,
-    title: 'Таунхаус в «Олимпийском парке»',
+    title: 'Таунхаус в Олимпийском парке',
     category: 'Дома',
-    image: '/placeholder.svg',
-    description: 'Отделка трехуровневого таунхауса с террасой и гаражом.'
+    image: 'https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=1480&auto=format&fit=crop',
+    description: 'Отделка трехуровневого таунхауса с террасой и гаражом. Современный стиль. Площадь 180 м².'
   },
   {
     id: 6,
-    title: 'Офис IT-компании',
+    title: 'Офис IT-компании «ЮгСофт»',
     category: 'Коммерческие',
-    image: '/placeholder.svg',
-    description: 'Современный ремонт офисного пространства в стиле лофт.'
+    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1469&auto=format&fit=crop',
+    description: 'Современный ремонт офисного пространства в стиле лофт. Открытая планировка. Площадь 320 м².'
   }
 ];
 
@@ -62,7 +63,7 @@ const Portfolio = () => {
           <h2 className="section-title">Наши работы</h2>
           <p className="text-renovation-gray max-w-3xl mx-auto">
             За 10 лет работы мы реализовали более 500 проектов различной сложности. 
-            Ознакомьтесь с примерами наших последних работ.
+            Ознакомьтесь с примерами наших последних работ в Сочи и Адлере.
           </p>
         </div>
 
